@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Packs - CraftHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>⛏️ CraftHub</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#browse">Browse</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search resource packs...">
+                <button>🔍</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="category-header">
+        <div class="container">
+            <h1>🎨 Resource Packs</h1>
+            <p>Transform your game's look with custom textures and designs</p>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filter-group">
+                <label>Sort By:</label>
+                <select id="sortBy">
+                    <option value="popular">Most Popular</option>
+                    <option value="recent">Recently Added</option>
+                    <option value="rating">Highest Rated</option>
+                    <option value="downloads">Most Downloaded</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Resolution:</label>
+                <select id="resolution">
+                    <option value="all">All Resolutions</option>
+                    <option value="16x">16x</option>
+                    <option value="32x">32x</option>
+                    <option value="64x">64x</option>
+                    <option value="128x">128x+</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Style:</label>
+                <select id="style">
+                    <option value="all">All Styles</option>
+                    <option value="realistic">Realistic</option>
+                    <option value="cartoon">Cartoon</option>
+                    <option value="modern">Modern</option>
+                    <option value="fantasy">Fantasy</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packs Grid -->
+    <section class="packs-section">
+        <div class="container">
+            <div class="items-grid" id="packsGrid">
+                <!-- Resource packs will be displayed here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CraftHub</h4>
+                    <p>The ultimate Minecraft community platform</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="mods.html">Mods</a></li>
+                        <li><a href="packs.html">Resource Packs</a></li>
+                        <li><a href="shaders.html">Shaders</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <p>
+                        <a href="#">Twitter</a> | 
+                        <a href="#">Discord</a> | 
+                        <a href="#">GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CraftHub. All rights reserved. Not affiliated with Mojang.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="category-page.js"></script>
+</body>
+</html>
